@@ -37,4 +37,20 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 15,
   },
+  options: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  sol: {
+    flexDirection: 'row',
+    alignContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderRadius: 10,
+    height: 40,
+    paddingHorizontal: 10,
+  },
+  titleSol: {
+    fontWeight: 'bold',
+  },
 });
